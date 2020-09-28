@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+      
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 400;
+    color: #000000;
+
+    background-color: #FFFFF0;
+}
+
+.header {
+  padding: 25px 10px 0 25px;
+}
+
+.main {
+  padding: 25px 10px 0 25px;
+}
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 23px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media prefers-color-scheme: dark {
+  color: #ffffff;
+
+  background-color: #00000f;
+}
